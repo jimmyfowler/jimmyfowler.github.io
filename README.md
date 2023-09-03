@@ -6,7 +6,8 @@
 **Arduino Telescope Modifications**
 [Telescope](assets/img/telescope)
 [Arduino Kit](assets/img/arduino_kit)
-Blurb:
+
+#### Blurb:
   I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for **$5** and it is missing a couple things. One of them is the dial for precise horizontal adjustment. I could could fix this by throwing money at it for replacement parts, or I could engineer my own, and add functionality that would otherwise be impossible. 
 Here's the plan:
 - Prototype alignment system with Arduino and Servos
