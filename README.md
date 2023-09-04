@@ -1,20 +1,7 @@
 # Website in Progress...
 
-#### Technical Skills: Python, Data Analytics,
+#### Technical Skills: Python, Data Analytics, Arduino (in development)
 
-## What I'm Working on Now!
-**Arduino Telescope Modifications**
-[Telescope](assets/img/telescope)
-[Arduino Kit](assets/img/arduino_kit)
-
-#### Blurb:
-  I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for **$5** and it is missing a couple things. One of them is the dial for precise horizontal adjustment. I could could fix this by throwing money at it for replacement parts, or I could engineer my own, and add functionality that would otherwise be impossible. 
-Here's the plan:
-- Prototype alignment system with Arduino and Servos
-- 3D Print dial and Arduino attachment point
-- lksdjflksdf
-
-I thought this could make a super fun project that would allow me to apply my knowledge of Arduino circuits and coding, learn about telescopes, and upgrade mine for cheap! 
 
 ## Education			        		
 - B.S., Aeronautical & Astronautical Engineering, The University of Washington, Seattle Campus (_E.C.D. June 2026_)
@@ -30,10 +17,27 @@ I thought this could make a super fun project that would allow me to apply my kn
 - Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
 
 ## Projects
-### Arduino Telescope Upgrade
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Arduino Telescope Modifications (IN PROGRESS)
+[Telescope](assets/img/telescope)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+[Arduino Kit](assets/img/arduino_kit)
+
+  I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5*. That's the deal of a lifetime! But it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, and the red dot finderscope... all items that help me aim the telescope. I could fix this with replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
+Here's the plan:
+- Hook up a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
+- Write calibration script to convert current orientation into azimuth and altitude for the telescope's line of sight
+  - Check while aiming telescope at an object and referencing Stellarium for true Az & Alt
+- 
+- 3D Print dial and Arduino attachment point
+- lksdjflksdf
+
+It will go through some design iterations to improve functionality:
+- V1: Horizontal (azimuth) adjustment through analog (joystick) input
+- V2: Both horizontal and vertical adjustment with joystick
+- V3: Input altitude and azimuth of a celestial object and the arduino system will orient the telescope in that direction.
+
+I thought this could make a super fun project that would allow me to apply my knowledge of Arduino circuits and coding, learn about telescopes, and upgrade mine for cheap! 
+
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
