@@ -12,10 +12,6 @@
 - Conducted data processing and analysis for a study evaluating the impact of an issue on 777-9 takeoff performance
 - Other Thing
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
-
 ## Projects
 ### Arduino Telescope Modifications (IN PROGRESS)
 [Telescope](assets/img/telescope)
