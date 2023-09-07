@@ -13,7 +13,7 @@
 - Other Thing
 
 ## Projects
-### Arduino Telescope Modifications (IN PROGRESS)
+### AIMduino (IN PROGRESS)
 [Telescope](assets/img/telescope)
 
 [Arduino Kit](assets/img/arduino_kit)
