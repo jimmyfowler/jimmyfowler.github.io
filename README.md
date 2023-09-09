@@ -12,11 +12,11 @@
 - Conducted data processing and analysis for a study evaluating the impact of an issue on 777-9 takeoff performance
 - Other Thing
 
-## Projects
+## What I'm working on now
 ### AIMduino (IN PROGRESS)
-[Telescope](assets/img/telescope)
+![Telescope](img/telescope)
 
-[Arduino Kit](assets/img/arduino_kit)
+![Arduino Kit](img/arduino_kit)
 
   I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $100+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
@@ -37,11 +37,7 @@ It will go through some design iterations with check-in points:
 I thought this could make a super fun project that would allow me to apply my Arduino and coding knowledge, learn more about telescopes, and upgrade mine for cheap!
 
 Come back later to see updates on this project.
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
+## Other Projects
 ### Freewing
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![Bike Study](/assets/img/bike_study.jpeg)
