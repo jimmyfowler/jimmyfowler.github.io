@@ -2,4 +2,5 @@ title: James Fowler
 logo: img/portrait_circle_small.png
 # description: Portfolio
 show_downloads: true
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/midnight@v0.2.0
+# google_analytics: [Your Google Analytics tracking ID]
