@@ -24,8 +24,6 @@
 ### AIMduino (_August 2023 - Present_)
 ![Telescope](img/Telescope.png)
 
-![Arduino Kit](img/arduino.jpg)
-
 I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $100+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
 - Hook up a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
@@ -45,6 +43,12 @@ It will go through some design iterations with check-in points:
 I thought this could make a super fun project that would allow me to apply my Arduino and coding knowledge, learn more about telescopes, and upgrade mine for cheap!
 
 Come back later to see updates on this project.
+
+### Learning Arduino (_June 2023 - Present_)
+![Arduino Kit](img/arduino.jpg)
+
+Over the Summer, I completed six Arduino projects led by a starter kit book. The goal was to learn circuit design and coding with a variety of instruments and solidify my passion for Arduino.
+
 
 ### Building an RV-12 (_May 2023 - Present_) (Husky Flying Club)
 I am currently leading a team of 12 engineers to machine and assemble aircraft parts. I Conduct & coordinate team meetings and allocate work to other student engineers on the project. I'm also planning & writing operations & legal documents with an experienced aerospace lawyer.
