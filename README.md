@@ -11,7 +11,7 @@
 **Configuration Aerodynamics Intern @ Boeing (_June 2022 - September 2022_)**
 - Conducted data processing and analysis with Python for a study evaluating the impact of an issue on 777-9 takeoff performance
 - Found the predictive accuracy of the simulation tool through an iterative, scripted (Python) process
-  - Gave a technical presentation on the results and how they should be used
+  - Gave a technical presentation on the accuracy of the tool and how it should be used
 
 **Web Developer @ The Academy of Lacey (_March 2022 - Present_)**
 - Train new employees on tool setup and work procedures
