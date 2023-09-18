@@ -1,6 +1,6 @@
 # Website in Progress...
 
-#### Technical Skills: Python, Data Analytics, Arduino (in development)
+#### Technical Skills: Python, Data Analytics, Arduino
 
 
 ## Education			        		
@@ -8,12 +8,19 @@
 - A.A., South Puget Sound Community College, Olympia, WA, Concentration: Engineering Physics (_June 2022_)
 
 ## Work Experience
-**Configuration Aerodynamics Intern @ Boeing (_June - September 2022_)**
-- Conducted data processing and analysis for a study evaluating the impact of an issue on 777-9 takeoff performance
-- Other Thing
+**Configuration Aerodynamics Intern @ Boeing (_June 2022 - September 2022_)**
+- Conducted data processing and analysis with Python for a study evaluating the impact of an issue on 777-9 takeoff performance
+- Found the predictive accuracy of the simulation tool through an iterative, scripted (Python) process
+  - Gave a technical presentation on the results and how they should be used
+
+**Web Developer @ The Academy of Lacey (_March 2022 - Present_)**
+- Train new employees on tool setup and work procedures
+- Collaborate with a team of developers to manage over 100 websites owned by Washington State agencies 
+- Utilize Linux command line, HTML, CSS, Javascript, and Git repositories
+
 
 ## What I'm working on now
-### AIMduino (IN PROGRESS)
+### AIMduino (PROJECT IN PROGRESS)
 ![Telescope](img/telescope)
 
 ![Arduino Kit](img/arduino_kit)
