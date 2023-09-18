@@ -1,6 +1,6 @@
 # Website in Progress...
 
-## >>[What I'm Workin on Now](https://github.com/jimmyfowler/jimmyfowler.github.io/blob/main/README.md#aimduino-project-in-progress-august-2023---present)<< click it!
+## >> [What I'm Workin on Now](https://github.com/jimmyfowler/jimmyfowler.github.io/blob/main/README.md#aimduino-project-in-progress-august-2023---present) << click it!
 
 #### Technical Skills: Python, Data Analytics, Arduino
 
@@ -24,7 +24,7 @@
 ### AIMduino (_August 2023 - Present_)
 ![Telescope](img/Telescope.png)
 
-![Arduino Kit](img/Arduino.jpg)
+![Arduino Kit](img/arduino.jpg)
 
 I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $100+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
