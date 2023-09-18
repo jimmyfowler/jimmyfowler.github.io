@@ -1,5 +1,7 @@
 # Website in Progress...
 
+## [What I'm Workin on Now](https://github.com/jimmyfowler/jimmyfowler.github.io/blob/main/README.md#aimduino-project-in-progress-august-2023---present)
+
 #### Technical Skills: Python, Data Analytics, Arduino
 
 ## Education			        		
