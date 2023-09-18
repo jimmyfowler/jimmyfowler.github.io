@@ -1,5 +1,5 @@
-# Welcome to my website
-Please make yourself at home :)
+# Portfolio
+Welcome to my website! Please make yourself at home :)
 
 ### >> [What I'm Workin on Now](#aimduino-august-2023---present) << click it!
 
