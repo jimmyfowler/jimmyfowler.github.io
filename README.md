@@ -1,7 +1,7 @@
 # Welcome to my website
-Please make yourself at home :
+Please make yourself at home :)
 
-## >> [What I'm Workin on Now](https://github.com/jimmyfowler/jimmyfowler.github.io/blob/main/README.md#aimduino-project-in-progress-august-2023---present) << click it!
+## >> [What I'm Workin on Now](https://github.com/jimmyfowler/jimmyfowler.github.io/blob/main/README.md#aimduino-august-2023---present) << click it!
 
 #### Technical Skills: Python, Data Analytics, Arduino
 
