@@ -2,7 +2,6 @@
 
 #### Technical Skills: Python, Data Analytics, Arduino
 
-
 ## Education			        		
 - B.S., Aeronautical & Astronautical Engineering, The University of Washington, Seattle Campus (_E.C.D. June 2026_)
 - A.A., South Puget Sound Community College, Olympia, WA, Concentration: Engineering Physics (_June 2022_)
@@ -19,13 +18,13 @@
 - Utilize Linux command line, HTML, CSS, Javascript, and Git repositories
 
 
-## What I'm working on now
-### AIMduino (PROJECT IN PROGRESS)
+## Projects
+### AIMduino (PROJECT IN PROGRESS) (_August 2023 - Present_)
 ![Telescope](img/telescope)
 
 ![Arduino Kit](img/arduino_kit)
 
-  I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $100+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
+I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $100+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
 - Hook up a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
 - Write calibration script to convert current orientation into azimuth and altitude for the telescope's line of sight
@@ -45,6 +44,13 @@ I thought this could make a super fun project that would allow me to apply my Ar
 
 Come back later to see updates on this project.
 
-## Other Projects
-### Freewing
+### Building an RV-12 (_May 2023 - Present_) (Husky Flying Club)
+I am currently leading a team of 12 engineers to machine and assemble aircraft parts. I Conduct & coordinate team meetings and allocate work to other student engineers on the project. I'm also planning & writing operations & legal documents with an experienced aerospace lawyer.
+
+### Freewing (_December 2022 - April 2023_) (Husky Flying Club)
+During my Freshman year with the Husky Flying Club, I built a freewing canard, radio-controlled aircraft with a ten-foot wingspan costing $3500 in parts. I helped organize our engineers into subteams based on interests and experience and then participated in weekly build meetings to construct the aircraft. I also wrote 8 pages of legal documents in order to safely and legally test-fly our plane once it was built.
+
+
+
+
 
