@@ -1,9 +1,8 @@
 # Portfolio
 Welcome to my website! Please make yourself at home :)
+#### Technical Skills: Python, Data Analytics, Arduino
 
 ### >> [What I'm Workin on Now](#aimduino-august-2023---present) << click it!
-
-#### Technical Skills: Python, Data Analytics, Arduino
 
 ## Education			        		
 - B.S., Aeronautical & Astronautical Engineering, The University of Washington, Seattle Campus (_E.C.D. June 2026_)
