@@ -1,6 +1,8 @@
 title: James Fowler
-logo: img/portrait_circle_small.png
+# logo: img/portrait_circle_small.png
 # description: Portfolio
 show_downloads: false
 remote_theme: pages-themes/midnight@v0.2.0
 # google_analytics: [Your Google Analytics tracking ID]
+github:
+  is_project_page: false
