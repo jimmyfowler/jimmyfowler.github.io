@@ -53,13 +53,16 @@ Over the Summer, I completed six Arduino projects led by a starter kit book. The
 At the end of my course on CAD & Visual Communication, we were prompted to model an original assembly of our choice. It was open-ended, but we had to include everything we learned in the class. I chose to model NASA's Mars Perseverance Rover. Even though I kept to a relatively low level of detail, this project was an incredible undertaking, especially while handling other finals.
 
 What I wanted was something that looked mildly realistic, and had some realistic mechanical motion--that I did!
+
 ![Rover Render](img/rover_render.jpg)
 
 I utilized a plethora of mates between each of the 18 parts, and followed best practices while modeling each indiviudal part, and while putting them all together in the assembly.
 
 Here's the project assignment description for more details on requirements. *I scored a 98%!*. 
 Below that is a zip file with my assembly file and all part files and drawings. Feel free to check it out for yourself!
+
 [Final Project Spring 2023.pdf](https://github.com/jimmyfowler/jimmyfowler.github.io/files/12814128/Final.Project.Spring.2023.pdf)
+
 [Fowler_J_FINAL_Rover.zip](https://github.com/jimmyfowler/jimmyfowler.github.io/files/12814307/Fowler_J_FINAL_Rover.zip)
 
 
