@@ -1,7 +1,8 @@
 # About Me
-Hello!
 
-![Portrait](img/portrait_circle_small.png)
+<p style="text-align: center;">![Portrait](img/portrait_circle_small.png)</p>
+
+Hello!
 
 My name is James Fowler, but I go by Jimmy. I'm a student at the University of Washington studying Aeronautical & Astronautical Engineering. I have always loved space and initially planned to study astrophysics. But after seeing the hands-on, tangible contributions engineers can make towards space exploration, I made the switch. Though cosmology still has a special place in my heart, I want to be a part of the mission to explore our solar system, attain lunar permanence, set foot on Mars, and see what kinds of resources we can find on asteroids and icy moons to improve our lives on & off planet Earth.
 
