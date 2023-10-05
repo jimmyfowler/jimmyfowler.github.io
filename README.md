@@ -1,6 +1,5 @@
-# About Me
-
-<p style="text-align: center;">![Portrait](img/portrait_circle_small.png)</p>
+# About Me 
+![Portrait](img/portrait_circle_small.png)
 
 Hello!
 
