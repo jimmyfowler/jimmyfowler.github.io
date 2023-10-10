@@ -56,6 +56,14 @@ Come back later to see updates on this project.
 
 Over the Summer, I completed six Arduino projects led by a starter kit book. The goal was to learn circuit design and coding with a variety of instruments and solidify my passion for Arduino.
 
+Some circuit elements & devices I worked with:
+- Servo Motors
+- LEDs (fixed & RGB)
+- Potentiometers
+- Capacitors
+- Resistors
+- Switches/Buttons
+
 ### **CADing Perseverance**
 At the end of my course on CAD & Visual Communication, we were prompted to model an original assembly of our choice. It was open-ended, but we had to include everything we learned in the class. I chose to model NASA's Mars Perseverance Rover. Even though I kept to a relatively low level of detail, this project was an incredible undertaking, especially while handling other finals.
 
