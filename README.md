@@ -81,7 +81,7 @@ Here's the project assignment description for more details on requirements. Belo
 
 
 ### **Building an RV-12 (_May 2023 - Present_) (Husky Flying Club)**
-I am currently leading a team of 12 engineers to machine and assemble aircraft parts. I Conduct & coordinate team meetings and allocate work to other student engineers on the project. I'm also planning & writing operations & legal documents with an experienced aerospace lawyer.
+I am currently leading a team of 6 engineers to machine and assemble aircraft parts. I Conduct & coordinate team meetings and allocate work to other student engineers on the project. I'm also planning & writing operations & legal documents with an experienced aerospace lawyer.
 
 ### **Freewing (_December 2022 - April 2023_) (Husky Flying Club)**
 During my Freshman year with the Husky Flying Club, I built a freewing canard, radio-controlled aircraft with a ten-foot wingspan costing $3500 in parts. I helped organize our engineers into subteams based on interests and experience and then participated in weekly build meetings to construct the aircraft. I also wrote 8 pages of legal documents in order to safely and legally test-fly our plane once it was built.
