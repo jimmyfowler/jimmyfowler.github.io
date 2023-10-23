@@ -1,7 +1,7 @@
 # About Me 
 Hello!
 
-My name is James Fowler, but I go by Jimmy. I'm a student at the University of Washington studying Aeronautical & Astronautical Engineering. I have always loved space and initially planned to study astrophysics. But after seeing the hands-on, tangible contributions engineers can make towards space exploration, I made the switch. Though cosmology still has a special place in my heart, I want to be a part of the mission to explore our solar system, attain lunar permanence, set foot on Mars, and see what kinds of resources we can find on asteroids and icy moons to improve our lives on & off planet Earth.
+My name is James Fowler, but I go by Jimmy. I'm a student at the University of Washington studying Aeronautical & Astronautical Engineering. I've always had a thing for space and initially planned to study astrophysics. But after seeing that engineers can make hands-on, tangible contributions towards space exploration, I couldn't imagine a future where I'm doing anything else. Though cosmology still has a special place in my heart, I want to be a part of the mission to explore our solar system, attain lunar permanence, set foot on Mars, and see what kinds of resources we can find on asteroids and icy moons to improve our lives on & off planet Earth.
 
 I love coding, CADing, Arduino-ing, and am currently looking for opportunities to apply those to space exploration! 
 
