@@ -29,9 +29,11 @@ I love coding, CADing and Arduino-ing, and am currently looking for opportunitie
 
 ## Projects
 ### **AIMduino (_August 2023 - Present_)**
+
+#### Context
 ![Telescope](assets/img/Telescope.png)
 
-I recently bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine vertical (altitude) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $100+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
+I bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine altitude (vertical) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $200+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
 - Hook up a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
 - Write calibration script to convert current orientation into azimuth and altitude for the telescope's line of sight
@@ -39,17 +41,80 @@ I'm calling it *AIMduino* (working title)... Here's the plan:
 - 3D Print rotator hardware and Arduino circuit attachment point
   - Use UW's maker spaces for 3D printing equipment, and mechanical engineering friends for design assistance
 - Make a double stepper motor circuit (one for each axis)
-  - Rotate horizontally until hitting target Azimuth, then rotate vertically until hitting target Altitude. 
+  - stepper motors have to interface with custom rotating hardware; this will be very difficult!
+  - Given a command, it will rotate horizontally until reaching the target Azimuth, then rotate vertically until the target Altitude. 
 
 It will go through some design iterations with check-in points:
 - V1: Manual orientation/aiming while monitoring Az & Alt outputs
-- V2: Horizontal rotation achieved through single stepper motor circuit, controlled with a switch. 
+- V2: Horizontal rotation achieved through single stepper motor, controlled with a switch. 
 - V3: Input Azimuth to rotate horizontally
 - V4: Input Az & Alt of a celestial object and the AIMduino will orient the telescope automatically
 
-I thought this could make a super fun project that would allow me to apply my Arduino and coding knowledge, learn more about telescopes, and upgrade mine for cheap!
+I thought this could make a super fun project that would allow me to apply my Arduino and coding knowledge, learn more about mechanical design and telescopes, and upgrade mine for cheap!
 
-Come back later to see updates on this project.
+#### Status Report
+
+- The first stepper motor and other circuit components came in the mail and I've been cooking up some code!
+
+- Here is my current (primitive) version of the code to control azimuth orientation
+
+```
+// This program takes a target azimuth from user input from the serial monitor
+// and steps the motor to that position in the most efficient direction.
+// Assumes initially at 0 degrees
+// Azimuth is measured clockwise from true north, 0 - 360 degrees
+
+
+// set step and direction pins
+const int stepPin = 10; 
+const int dirPin = 11; 
+const float deg_step = 0.1125; // 1.8 degrees per step but 1/16 step w/ microstepping = 0.1125 deg per step
+const int speed = 10; // (1 to 10) edit to change step speed
+const int step_delay = 5000/speed; 
+
+void setup() {
+  Serial.begin(9600);
+  // Sets the two pins as Outputs
+  pinMode(stepPin,OUTPUT); 
+  pinMode(dirPin,OUTPUT);
+}
+
+void loop() {
+
+  Serial.println("Enter Target Azimuth");
+
+  // wait until user input is detected
+  while (Serial.available() == 0) {
+  }
+
+  float target_Az = Serial.parseFloat();  // put user input into target azimuth var
+  // float current_Az = ...
+  int target_steps = round(target_Az / deg_step); // convert to steps (degrees divided by degrees-per-step = steps)
+
+  if (target_Az > 360 || target_Az < 0) { // invalid azimuth
+    Serial.println("Please enter a valid azimuth between 0 and 360 degrees");
+
+  } else if (target_Az <= 180) { // azimuth between 0 and 180
+      digitalWrite(dirPin,LOW); // clockwise
+      for(int x = 0; x < target_steps; x++) {
+        digitalWrite(stepPin,HIGH); 
+        delayMicroseconds(step_delay); 
+        digitalWrite(stepPin,LOW); 
+        delayMicroseconds(step_delay); 
+      }
+
+  } else if (target_Az > 180){
+      digitalWrite(dirPin,HIGH); // counterclockwise
+      for(int x = 0; x < 3200 - target_steps; x++) {
+        digitalWrite(stepPin,HIGH); 
+        delayMicroseconds(step_delay); 
+        digitalWrite(stepPin,LOW); 
+        delayMicroseconds(step_delay); 
+      }
+  }
+}
+```
+
 
 ### **Learning Arduino (_June - September 2023_)**
 ![Arduino Kit](assets/img/arduino.jpg)
