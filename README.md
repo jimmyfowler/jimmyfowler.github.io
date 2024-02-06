@@ -35,14 +35,15 @@ I love coding, CADing and Arduino-ing, and am currently looking for opportunitie
 
 I bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine altitude (vertical) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $200+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
-- Hook up a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
+- Fix a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
 - Write calibration script to convert current orientation into azimuth and altitude for the telescope's line of sight
   - Use Stellarium while aiming the telescope at the moon (easy to find) to compare to true Az & Alt, iterate calibration script as needed
 - 3D Print rotator hardware and Arduino circuit attachment point
   - Use UW's maker spaces for 3D printing equipment, and mechanical engineering friends for design assistance
 - Make a double stepper motor circuit (one for each axis)
   - stepper motors have to interface with custom rotating hardware; this will be very difficult!
-  - Given a command, it will rotate horizontally until reaching the target Azimuth, then rotate vertically until the target Altitude. 
+  - Given a command, it will rotate horizontally until reaching the target Azimuth, then rotate vertically until the target Altitude.
+  
 
 It will go through some design iterations with check-in points:
 - V1: Manual orientation/aiming while monitoring Az & Alt outputs
@@ -50,13 +51,13 @@ It will go through some design iterations with check-in points:
 - V3: Input Azimuth to rotate horizontally
 - V4: Input Az & Alt of a celestial object and the AIMduino will orient the telescope automatically
 
-I thought this could make a super fun project that would allow me to apply my Arduino and coding knowledge, learn more about mechanical design and telescopes, and upgrade mine for cheap!
+I thought this could make a super fun project that would allow me to apply my Arduino and coding knowledge, learn more about mechanical design and telescopes, and upgrade mine for relatively cheap!
 
 #### Status Report
+TRL: 3
+I've tested the stepper motor (Nema 17) and driver board (A4988) and I've been cooking up some code to control it!
 
-- The first stepper motor and other circuit components came in the mail and I've been cooking up some code!
-
-- Here is my current (primitive) version of the code to control azimuth orientation
+Here is my current (primitive) version of the code to control azimuth orientation:
 
 ```
 // This program takes a target azimuth from user input from the serial monitor
@@ -114,7 +115,7 @@ void loop() {
   }
 }
 ```
-
+Next step: Begin mechanical design of the hardware to rotate the telescope (I'll be using Solidworks)
 
 ### **Learning Arduino (_June - September 2023_)**
 ![Arduino Kit](assets/img/arduino.jpg)
