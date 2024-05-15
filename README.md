@@ -115,7 +115,7 @@ void loop() {
   }
 }
 ```
-Next step: Begin mechanical design of the hardware to rotate the telescope (I'll be using Solidworks)
+Next step: Begin mechanical design of the hardware to rotate the telescope (I'll be using Siemens NX)
 
 ### **Learning Arduino (_June - September 2023_)**
 ![Arduino Kit](assets/img/arduino.jpg)
