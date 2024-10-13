@@ -3,31 +3,48 @@ Hello!
 
 My name is James Fowler, but I go by Jimmy. I'm a student at the University of Washington studying Aeronautical & Astronautical Engineering. I've always had a thing for space and initially planned to study astrophysics. But after seeing that engineers can make hands-on, tangible contributions towards space exploration, I couldn't imagine a future where I'm doing anything else. Though cosmology still has a special place in my heart, I want to be a part of the mission to explore our solar system, attain lunar permanence, set foot on Mars, and see what kinds of resources we can find on asteroids and icy moons to improve our lives on & off planet Earth.
 
-I love coding, CADing and Arduino-ing, and am currently looking for opportunities to apply those to space exploration! 
+I love coding, CADing and control theory, and am currently looking for opportunities to apply those to space exploration! 
 
 # Portfolio
 
-#### Technical Skills: Python, Data Analytics, Arduino, CAD (Solidworks)
+#### Technical Skills: MATLAB, Python, C++, PCB Design (KiCAD), CAD (Solidworks + NX)
 
 ### >> [What I'm Workin on Now](#aimduino-august-2023---present) << click it!
 
 ## Education			        		
-- B.S., Aeronautical & Astronautical Engineering, The University of Washington, Seattle Campus (_E.C.D. June 2026_)
+- B.S., Aeronautical & Astronautical Engineering, University of Washington, Seattle Campus (_E.C.D. June 2026_)
 - A.A., South Puget Sound Community College, Olympia, WA, Concentration: Engineering Physics (_June 2022_)
 
-## Work Experience
-**Configuration Aerodynamics Intern @ Boeing (_June 2022 - September 2022_)**
+## Internships
+
+**SLS Rocket Propulsion Hardware Intern @ Boeing (_Septemeber - December 2024_)**
+- Supporting the Pneumatics & Pressurization system powering the core stage on the Space Launch System
+- Communicate with suppliers to ensure requirements are being met for each component
+  
+**New Shepard System Architecture Intern @ Blue Origin (_June - September 2024_)**
+- Developed an automated data pipeline involving 9 custom MATLAB functions, interfacing with 6 different internal applications and custom programs 
+- Presented effective, technical demonstrations of my work to my team and others
+
+**Configuration Aerodynamics Intern @ Boeing (_June - September 2023_)**
 - Conducted data processing and analysis with Python for a study evaluating the impact of an issue on 777-9 takeoff performance
 - Found the predictive accuracy of the simulation tool through an iterative, scripted (Python) process
   - Gave a technical presentation on the accuracy of the tool and how it should be used
 
+## Part-time Work (to help pay for school)
+
 **Web Developer @ The Academy of Lacey (_March 2022 - Present_)**
+- Collaborate with a team of developers to manage over 100 websites owned by Washington State agencies
 - Train new employees on tool setup and work procedures
-- Collaborate with a team of developers to manage over 100 websites owned by Washington State agencies 
 - Utilize Linux command line, HTML, CSS, Javascript, and Git repositories
 
 
 ## Projects
+
+### SARP Flight Computer
+
+
+
+
 ### **AIMduino (_August 2023 - Present_)**
 
 #### Context
