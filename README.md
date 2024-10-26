@@ -52,7 +52,7 @@ I love coding, CADing and control theory, and am currently looking for opportuni
 
 I bought this Bushnell Voyager Sky Tour 900mm x 4.5" Reflector Telescope at a garage sale for *$5* (what a steal!), but it's missing a couple of parts: the two lesser magnifying of the three eyepieces, the dial for fine altitude (vertical) adjustment, the handset meant to guide you with audio, and the finderscope... all items that help me aim the telescope at my celestial target. I could fix this with $200+ in replacement parts, or I could engineer my own alignment system and add functionality that would otherwise be impossible!
 I'm calling it *AIMduino* (working title)... Here's the plan:
-- Fix a $3 MPU6050 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
+- Fix a BNO055 IMU to the exterior of the telescope, which has an accurate 3-axis accelerometer and gyroscope so I can read the telescope's current orientation.
 - Write calibration script to convert current orientation into azimuth and altitude for the telescope's line of sight
   - Use Stellarium while aiming the telescope at the moon (easy to find) to compare to true Az & Alt, iterate calibration script as needed
 - 3D Print rotator hardware and Arduino circuit attachment point
