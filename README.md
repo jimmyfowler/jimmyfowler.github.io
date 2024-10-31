@@ -5,15 +5,21 @@ My name is James Fowler, but I go by Jimmy. I'm a student at the University of W
 
 I love coding, CADing and control theory, and am currently looking for opportunities to apply those to space exploration! 
 
+
+
 # Portfolio
 
 #### Technical Skills: MATLAB, Python, C++, PCB Design (KiCAD), CAD (Solidworks + NX)
 
 ### >> [What I'm Workin on Now](#aimduino-august-2023---present) << click it!
 
+
+
 ## Education			        		
 - B.S., Aeronautical & Astronautical Engineering, University of Washington, Seattle Campus (_E.C.D. June 2026_)
 - A.A., South Puget Sound Community College, Olympia, WA, Concentration: Engineering Physics (_June 2022_)
+
+
 
 ## Internships
 
@@ -38,10 +44,12 @@ I love coding, CADing and control theory, and am currently looking for opportuni
 - Utilize Linux command line, HTML, CSS, Javascript, and Git repositories
 
 
+
 ## Projects
 
-### SARP Flight Computer
+### Controlling an Autonomous Paraglider
 
+Information on this project coming soon!
 
 
 
@@ -134,6 +142,8 @@ void loop() {
 ```
 Next step: Begin mechanical design of the hardware to rotate the telescope (I'll be using Siemens NX)
 
+
+
 ### **Learning Arduino (_June - September 2023_)**
 ![Arduino Kit](assets/img/arduino.jpg)
 
@@ -146,6 +156,8 @@ Some circuit elements & devices I worked with:
 - Capacitors
 - Resistors
 - Switches/Buttons
+
+
 
 ### **CADing Perseverance**
 At the end of my course on CAD & Visual Communication, we were prompted to model an original assembly of our choice. It was open-ended, but we had to include everything we learned in the class. I chose to model NASA's Mars Perseverance Rover. Even though I kept to a relatively low level of detail, this project was an incredible undertaking, especially while handling other finals.
@@ -163,8 +175,11 @@ Here's the project assignment description for more details on requirements. Belo
 [Fowler_J_FINAL_Rover.zip](https://github.com/jimmyfowler/jimmyfowler.github.io/files/12814307/Fowler_J_FINAL_Rover.zip)
 
 
+
 ### **Building an RV-12 (_May 2023 - Present_) (Husky Flying Club)**
 I am currently leading a team of 6 engineers to machine and assemble aircraft parts. I Conduct & coordinate team meetings and allocate work to other student engineers on the project. I'm also planning & writing operations & legal documents with an experienced aerospace lawyer.
+
+
 
 ### **Freewing (_December 2022 - April 2023_) (Husky Flying Club)**
 During my Freshman year with the Husky Flying Club, I helped build a freewing canard, radio-controlled aircraft with a ten-foot wingspan costing $3500 in parts. I helped organize our engineers into subteams based on interests and experience and then participated in weekly build meetings to construct the aircraft. I also wrote 8 pages of legal documents in order to safely and legally test-fly our plane once it was built.
