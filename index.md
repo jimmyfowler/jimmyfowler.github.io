@@ -4,7 +4,6 @@ layout: default
 filename: index.md
 --- 
 
-TESTING
 
 # About Me 
 Hello!
