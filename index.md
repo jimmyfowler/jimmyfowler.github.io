@@ -1,7 +1,7 @@
 ---
-title: PAGE TITLE HERE
-layout: template
-filename: NAME OF THIS .md FILE HERE
+title: Homepage
+layout: default
+filename: index.md
 --- 
 
 TESTING
