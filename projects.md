@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: default
-filename: projects.md
+filename: projects
 --- 
 
 Projects go here

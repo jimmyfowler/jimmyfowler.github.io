@@ -1,7 +1,7 @@
 ---
 title: Homepage
 layout: default
-filename: index.md
+filename: index
 --- 
 
 
