@@ -9,7 +9,7 @@ I love coding, CADing and control theory, and am currently looking for opportuni
 
 # Portfolio
 
-#### Technical Skills: MATLAB, Python, C++, PCB Design (KiCAD), CAD (Solidworks + NX)
+#### Technical Skills:Python, MATLAB, C++, PCB Design (KiCAD), CAD (Solidworks + NX)
 
 ### >> [What I'm Workin on Now](#aimduino-august-2023---present) << click it!
 
@@ -53,7 +53,7 @@ Information on this project coming soon!
 
 
 
-### **AIMduino (_August 2023 - Present_)**
+### **AIMduino (_August 2023 - January 2024_)**
 
 #### Context
 ![Telescope](assets/img/Telescope.png)
@@ -176,8 +176,8 @@ Here's the project assignment description for more details on requirements. Belo
 
 
 
-### **Building an RV-12 (_May 2023 - Present_) (Husky Flying Club)**
-I am currently leading a team of 6 engineers to machine and assemble aircraft parts. I Conduct & coordinate team meetings and allocate work to other student engineers on the project. I'm also planning & writing operations & legal documents with an experienced aerospace lawyer.
+### **Building an RV-12 (_May 2023 - June 2024) (Husky Flying Club)**
+I led a team of 6 engineers to machine and assemble aircraft parts, conducted & coordinated team meetings, and allocated work to other student engineers on the project. On the side, I was responsible for planning & writing operations & legal documents with an experienced aerospace lawyer.
 
 
 
